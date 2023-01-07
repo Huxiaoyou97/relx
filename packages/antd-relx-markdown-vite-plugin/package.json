@@ -1,0 +1,18 @@
+{
+  "name": "@antd-relx/markdown-vite-plugin",
+  "version": "1.0.7",
+  "description": "markdown vite plugin of varlet",
+  "main": "index.js",
+  "module": "index.js",
+  "keywords": [
+    "vite",
+    "plugin",
+    "relx"
+  ],
+  "author": "huxiaoyou <huxiaoyou888@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "highlight.js": "^10.7.2",
+    "markdown-it": "^12.0.2"
+  }
+}

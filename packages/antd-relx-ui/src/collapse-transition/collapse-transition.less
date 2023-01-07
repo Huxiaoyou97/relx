@@ -1,0 +1,18 @@
+@rx-transition-duration: .3s;
+
+:root {
+    --rx-transition-duration: @rx-transition-duration;
+}
+
+.collapse-transition {
+    transition: @rx-transition-duration height ease-in-out,
+    @rx-transition-duration padding-top ease-in-out,
+    @rx-transition-duration padding-bottom ease-in-out !important;
+}
+
+.rx-collapse-transition-leave-active,
+.rx-collapse-transition-enter-active {
+    transition: @rx-transition-duration max-height ease-in-out,
+    @rx-transition-duration padding-top ease-in-out,
+    @rx-transition-duration padding-bottom ease-in-out !important;
+}

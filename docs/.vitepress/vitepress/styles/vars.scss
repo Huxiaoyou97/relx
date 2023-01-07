@@ -1,0 +1,26 @@
+:root {
+
+    // header vars
+    --header-height: 55px;
+    --nav-height: 55px; // alias of --header-height
+    --sidebar-width-md: 18rem;
+    --sidebar-width-sm: 16rem;
+    --sidebar-width-xs: 20rem;
+    --content-min-width: 16rem;
+    --content-max-width: 48rem;
+
+    --nav-z-index: 20;
+    --sub-nav-z-index: 10;
+    --sidebar-z-index: 40;
+    --overlay-z-index: 30;
+}
+
+
+// SCSS variables
+// breakpoints
+$breakpoint-xxl: 1440px !default;
+$breakpoint-xlg: 1280px !default;
+$breakpoint-lg: 960px !default;
+$breakpoint-md: 768px !default;
+$breakpoint-sm: 480px !default;
+

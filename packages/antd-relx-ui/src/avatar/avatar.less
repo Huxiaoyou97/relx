@@ -1,0 +1,45 @@
+.rx-avatar {
+    width: var(--merged-size);
+    height: var(--merged-size);
+    color: #FFF;
+    font-size: var(--font-size);
+    display: inline-flex;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: var(--border);
+    border-radius: var(--border-radius);
+    --merged-color: var(--color);
+    background-color: var(--merged-color);
+    transition: border-color 0.3s var(--bezier), background-color 0.3s var(--bezier), color 0.3s var(--bezier);
+
+    .rx-modal, .rx-drawer {
+        --merged-color: var(--color-modal);
+    }
+
+    .rx-popover:not(.rx-tooltip) {
+        --merged-color: var(--color-popover);
+    }
+
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .rx-avatar__text {
+        white-space: nowrap;
+        display: inline-block;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+
+    .rx-icon {
+        vertical-align: bottom;
+        font-size: calc(var(--merged-size) - 6px);
+    }
+
+    .rx-avatar__text {
+        line-height: 1.25;
+    }
+}

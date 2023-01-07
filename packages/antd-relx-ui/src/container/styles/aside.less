@@ -1,0 +1,12 @@
+@rx-aside-width: 300px;
+
+:root {
+    --rx-aside-width: @rx-aside-width;
+}
+
+.rx-aside {
+    overflow: auto;
+    box-sizing: border-box;
+    flex-shrink: 0;
+    width: var(--rx-aside-width);
+}

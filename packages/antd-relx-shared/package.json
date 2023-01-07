@@ -1,0 +1,31 @@
+{
+  "name": "@antd-relx/shared",
+  "version": "1.0.7",
+  "type": "module",
+  "main": "lib/index.js",
+  "module": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./lib/index.js"
+    }
+  },
+  "description": "shared utils of relx",
+  "keywords": [
+    "shared",
+    "utils"
+  ],
+  "author": "huxiaoyou <huxiaoyou888@gmail.com>",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "tsconfig.json"
+  ],
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}

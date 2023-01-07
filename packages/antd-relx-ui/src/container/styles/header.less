@@ -1,0 +1,14 @@
+@rx-header-padding: 0 20px;
+@rx-header-height: 60px;
+
+:root {
+    --rx-header-height: @rx-header-height;
+    --rx-header-padding: @rx-header-padding;
+}
+
+.rx-header {
+    padding: var(--rx-header-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--rx-header-height);
+}

@@ -1,0 +1,38 @@
+{
+    "zh-CN": {
+        "basic": {
+            "text": "Basic 基础组件",
+            "children": [
+                {
+                    "link": "/avatar",
+                    "text": "Avatar 头像"
+                },
+                {
+                    "link": "/button",
+                    "text": "Button 按钮"
+                },
+                {
+                    "link": "/container",
+                    "text": "Container 布局容器"
+                },
+                {
+                    "link": "/icon",
+                    "text": "Icon 图标"
+                },
+                {
+                    "link": "/divider",
+                    "text": "Divider 分割线"
+                }
+            ]
+        },
+        "Directives": {
+            "text": "自定义指令",
+            "children": [
+                {
+                    "link": "/ripple",
+                    "text": "Ripple 水波纹"
+                }
+            ]
+        }
+    }
+}

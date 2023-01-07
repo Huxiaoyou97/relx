@@ -1,0 +1,14 @@
+@rx-footer-padding: 0 20px;
+@rx-footer-height: 60px;
+
+:root {
+    --rx-footer-height: @rx-footer-height;
+    --rx-footer-padding: @rx-footer-padding;
+}
+
+.rx-footer {
+    padding: var(--rx-footer-padding);
+    box-sizing: border-box;
+    flex-shrink: 0;
+    height: var(--rx-footer-height);
+}

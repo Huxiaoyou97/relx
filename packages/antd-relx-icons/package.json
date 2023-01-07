@@ -1,0 +1,25 @@
+{
+  "name": "@antd-relx/icons",
+  "version": "1.0.7",
+  "description": "",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "bin": {
+    "relx-icons": "./lib/index.js"
+  },
+  "keywords": [],
+  "files": [
+    "dist",
+    "lib"
+  ],
+  "author": "huxiaoyou <huxiaoyou888@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "relx-icons build"
+  },
+  "dependencies": {
+    "commander": "^6.2.1",
+    "fs-extra": "^9.0.1",
+    "webfont": "^9.0.0"
+  }
+}

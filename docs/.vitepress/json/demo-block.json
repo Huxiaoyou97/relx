@@ -1,0 +1,9 @@
+{
+  "zh-CN": {
+    "view-source": "查看源代码",
+    "hide-source": "隐藏源代码",
+    "copy-code": "复制代码",
+    "copy-success": "已复制!",
+    "copy-error": "此浏览器不支持自动复制！"
+  }
+}
